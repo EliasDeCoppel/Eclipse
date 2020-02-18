@@ -1,7 +1,7 @@
 package timeofday;
 
 public class TimeOfDay {
-	int minutesSinceMidnight;
+	private int minutesSinceMidnight;
 	
 	static int getHours(TimeOfDay t) {
 		return t.minutesSinceMidnight / 60;
